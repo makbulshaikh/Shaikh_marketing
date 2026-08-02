@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaikh Marketing - Authorized Supply Chain & Wholesale Distributor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .active-tab { border-bottom: 3px solid #14b8a6; color: #14b8a6 !important; font-weight: bold; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+
+    <div class="bg-blue-950 text-gray-300 text-xs py-1.5 px-4 hidden sm:block">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div><i class="fas fa-map-marker-alt text-red-400 mr-1"></i> Dhargaon, Maheshwar, Khargone (M.P.)</div>
+            <div class="flex gap-4">
+                <span><i class="fas fa-phone text-green-400 mr-1"></i> +91 9926075875</span>
+                <span><i class="fas fa-envelope text-blue-400 mr-1"></i> shaikhmarketing786@gmail.com</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="bg-blue-900 text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3 cursor-pointer" onclick="showPage('home')">
+                <div class="w-11 h-11 bg-teal-500 rounded-xl flex items-center justify-center font-black text-xl text-white shadow-md border-2 border-teal-300">
+                    SM
+                </div>
+                <div>
+                    <h1 class="text-xl font-black tracking-wide leading-tight">SHAIKH MARKETING</h1>
+                    <p class="text-xs text-teal-300 font-medium">Wholesale & Supply Chain Network</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold">
+                <button onclick="showPage('home')" id="nav-home" class="nav-btn active-tab py-2 hover:text-teal-300 transition">HOME</button>
+                <button onclick="showPage('shop')" id="nav-shop" class="nav-btn py-2 hover:text-teal-300 transition">PRODUCTS CATALOG</button>
+                <button onclick="showPage('about')" id="nav-about" class="nav-btn py-2 hover:text-teal-300 transition">ABOUT & CONTACT</button>
+            </nav>
+
+            <a href="https://wa.me/919926075875?text=Hi%20Shaikh%20Marketing,%20I%20want%20to%20inquire%20about%20wholesale%20stock" target="_blank" class="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg text-sm font-bold flex items-center gap-2 shadow-md transition">
+                <i class="fab fa-whatsapp text-lg"></i> <span class="hidden sm:inline">Order WhatsApp</span>
+            </a>
+        </div>
+
+        <div class="md:hidden flex justify-around bg-blue-950 py-2.5 border-t border-blue-800 text-xs font-bold uppercase">
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('shop')">Catalog</button>
+            <button onclick="showPage('about')">About Us</button>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+
+        <section id="page-home" class="page-content">
+            <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-blue-950 text-white py-16 px-4 relative overflow-hidden">
+                <div class="max-w-5xl mx-auto text-center relative z-10">
+                    <span class="bg-teal-500/20 text-teal-300 text-xs sm:text-sm font-bold px-4 py-1.5 rounded-full uppercase tracking-wider border border-teal-500/30">
+                        Authorized Wholesale Partner
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-black mt-5 leading-tight">
+                        Medical, General & Grocery Stores Ke Liye Top Brands Stock
+                    </h2>
+                    <p class="mt-4 text-base sm:text-lg text-gray-200 max-w-3xl mx-auto font-light">
+                        Himalaya, Dabur, Emami, Zydus, HUL, GSK, Vicco, Reckitt, J&J, Marico, MamyPoko aur Little Angels ka 100% original stock direct aapki dukaan tak.
+                    </p>
+                    <div class="mt-8 flex justify-center gap-4 flex-wrap">
+                        <button onclick="showPage('shop')" class="bg-teal-500 hover:bg-teal-600 text-white font-bold px-7 py-3 rounded-lg shadow-xl transition transform hover:-translate-y-0.5">
+                            <i class="fas fa-boxes mr-2"></i> Products Catalog Dekhein
+                        </button>
+                        <a href="tel:9926075875" class="bg-white text-blue-900 hover:bg-gray-100 font-bold px-7 py-3 rounded-lg shadow-xl transition">
+                            <i class="fas fa-phone-alt mr-2 text-teal-600"></i> Direct Call Karein
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 py-14">
+                <h3 class="text-2xl sm:text-3xl font-black text-center mb-2">Kinke Liye Supply Available Hai?</h3>
+                <p class="text-center text-gray-500 text-sm mb-10">Regional Retailers Ko Fast Delivery Aur Best Margin Guarantee</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-7 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-4"><i class="fas fa-clinic-medical"></i></div>
+                        <h4 class="text-xl font-bold mb-2">Medical Stores</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">Zydus, GSK, Himalaya Healthcare, Reckitt Benckiser, aur Johnson & Johnson pharma & baby care range.</p>
+                    </div>
+                    <div class="bg-white p-7 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <div class="w-14 h-14 bg-teal-100 text-teal-600 rounded-xl flex items-center justify-center text-2xl mb-4"><i class="fas fa-store"></i></div>
+                        <h4 class="text-xl font-bold mb-2">General Stores</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">Personal care, cosmetics, soaps & creams (Joy, Vicco, Emami, HUL) best wholesale rates par.</p>
+                    </div>
+                    <div class="bg-white p-7 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                        <div class="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-2xl mb-4"><i class="fas fa-shopping-basket"></i></div>
+                        <h4 class="text-xl font-bold mb-2">Grocery & Baby Shops</h4>
+                        <p class="text-gray-600 text-sm leading-relaxed">Dabur, Marico (Parachute), MamyPoko Pants, Little Angels Diapers, aur FMCG daily products.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-blue-900 text-white py-14 px-4">
+                <div class="max-w-7xl mx-auto">
+                    <div class="text-center mb-8">
+                        <span class="bg-teal-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Wide Delivery Network</span>
+                        <h3 class="text-2xl sm:text-4xl font-black mt-3">Hamara Supply Coverage Area</h3>
+                        <p class="text-gray-300 text-sm mt-2">In sabhi shehron aur aas-pass ke sabhi gaon (villages) me hamari regular supply hai:</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center gap-3 max-w-5xl mx-auto">
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Khargone</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Kasrawad</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Thikri</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Dhamnod</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Maheshwar</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Mandleshwar</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Bagod</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Karahi</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Bamnala</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Gogawa</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Multhan</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Sanawad</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Barwaha</span>
+                        <span class="bg-blue-800/80 border border-blue-700 px-4 py-2 rounded-lg text-sm font-semibold"><i class="fas fa-truck text-teal-400 mr-2"></i>Khandwa</span>
+                        <span class="bg-teal-600 px-4 py-2 rounded-lg text-sm font-bold text-white"><i class="fas fa-home mr-2"></i>& Nearby Villages</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-16 px-4 max-w-7xl mx-auto">
+                <h3 class="text-2xl sm:text-3xl font-black text-center mb-10">Costomer Reviews (Retailers Feedback)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                        <div class="text-amber-400 text-sm mb-3">★★★★★</div>
+                        <p class="text-gray-600 text-sm italic">"Shaikh Marketing se stock lena bohot convenient hai. Margin badhiya milta hai aur delivery me koi delay nahi hota."</p>
+                        <p class="font-bold text-sm mt-4 text-blue-900">- Medical Store Owner, Maheshwar</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                        <div class="text-amber-400 text-sm mb-3">★★★★★</div>
+                        <p class="text-gray-600 text-sm italic">"Original stock ki 100% guarantee rehti hai. Dabur aur Himalaya range easily ek hi jagah mil jaati hai."</p>
+                        <p class="font-bold text-sm mt-4 text-blue-900">- General Store, Khargone</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
+                        <div class="text-amber-400 text-sm mb-3">★★★★★</div>
+                        <p class="text-gray-600 text-sm italic">"Dhargaon and nearby villages me best supply service. MamyPoko aur Baby care items hamesha fresh stock me rehte hain."</p>
+                        <p class="font-bold text-sm mt-4 text-blue-900">- Grocery Shop, Kasrawad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="page-shop" class="page-content hidden">
+            <div class="max-w-7xl mx-auto px-4 py-10">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-black">All Products & Authorized Brands Catalog</h2>
+                    <p class="text-gray-500 text-sm mt-1">Dabur, Himalaya, Emami, Zydus, Joy, J&J, Reckitt, HUL, Marico, MamyPoko, GSK, Vicco</p>
+                </div>
+
+                <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 mb-8 space-y-4">
+                    <div class="relative">
+                        <i class="fas fa-search absolute left-4 top-3.5 text-gray-400"></i>
+                        <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Search product or brand name (e.g. Dabur, Himalaya, Diapers, Soap...)" class="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none text-sm">
+                    </div>
+                    <div class="flex flex-wrap gap-2 text-xs font-bold">
+                        <button onclick="filterCategory('all')" class="cat-btn bg-blue-900 text-white px-4 py-2 rounded-lg">All Brands</button>
+                        <button onclick="filterCategory('pharma')" class="cat-btn bg-gray-100 text-gray-700 hover:bg-gray-200 px-4 py-2 rounded-lg">Pharma & Health</button>
+                        <button onclick="filterCategory('cosmetics')" class="cat-btn bg-gray-100 text-gray-700 hover:bg-gray-200 px-4 py-2 rounded-lg">Cosmetics & Personal Care</button>
+                        <button onclick="filterCategory('babycare')" class="cat-btn bg-gray-100 text-gray-700 hover:bg-gray-200 px-4 py-2 rounded-lg">Baby Care & Diapers</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="productGrid">
+
+                    <div class="product-card bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col justify-between" data-brand="dabur" data-category="pharma">
+                        <div class="p-4">
+                            <div class="h-44 bg-gray-100 rounded-lg mb-3 flex items-center justify-center text-gray-400 overflow-hidden">
+                                <img src="images/product1.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x200?text=Dabur+Healthcare';" alt="Dabur Stock" class="w-full h-full object-cover">
+                            </div>
+                            <span class="text-[10px] bg-amber-100 text-amber-800 font-extrabold px-2 py-0.5 rounded uppercase">Dabur Authorized</span>
+                            <h4 class="font-bold text-gray-900 text-base mt-1">Dabur Chyawanprash & Health Range</h4>
+                            <p class="text-xs text-gray-500 mt-1">Wholesale bulk cartons available for Medical & Grocery stores.</p>
+                        </div>
+                        <div class="p-4 border-t bg-gray-50 flex items-center justify-between">
+                            <div><span class="text-xs text-gray-500 block">Pricing</span><span class="font-black text-blue-900 text-sm">Wholesale Rate</span></div>
+                            <a href="https://wa.me/919926075875?text=Hi%20Shaikh%20Marketing,%20I%20want%20to%20order%20Dabur%20Products" target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-2 rounded-lg font-bold flex items-center gap-1">
+                                <i class="fab fa-whatsapp"></i> Order
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col justify-between" data-brand="himalaya" data-category="cosmetics">
+                        <div class="p-4">
+                            <div class="h-44 bg-gray-100 rounded-lg mb-3 flex items-center justify-center text-gray-400 overflow-hidden">
+                                <img src="images/product2.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x200?text=Himalaya+Face+Wash';" alt="Himalaya Stock" class="w-full h-full object-cover">
+                            </div>
+                            <span class="text-[10px] bg-teal-100 text-teal-800 font-extrabold px-2 py-0.5 rounded uppercase">Himalaya Agency</span>
+                            <h4 class="font-bold text-gray-900 text-base mt-1">Himalaya Purifying Neem Face Wash</h4>
+                            <p class="text-xs text-gray-500 mt-1">All SKU sizes (50ml, 100ml, 200ml) with best retail margins.</p>
+                        </div>
+                        <div class="p-4 border-t bg-gray-50 flex items-center justify-between">
+                            <div><span class="text-xs text-gray-500 block">Pricing</span><span class="font-black text-blue-900 text-sm">Best Margin</span></div>
+                            <a href="https://wa.me/919926075875?text=Hi%20Shaikh%20Marketing,%20I%20want%20to%20order%20Himalaya%20Products" target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-2 rounded-lg font-bold flex items-center gap-1">
+                                <i class="fab fa-whatsapp"></i> Order
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col justify-between" data-brand="mamypoko" data-category="babycare">
+                        <div class="p-4">
+                            <div class="h-44 bg-gray-100 rounded-lg mb-3 flex items-center justify-center text-gray-400 overflow-hidden">
+                                <img src="images/product3.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x200?text=MamyPoko+Diapers';" alt="MamyPoko Diapers" class="w-full h-full object-cover">
+                            </div>
+                            <span class="text-[10px] bg-blue-100 text-blue-800 font-extrabold px-2 py-0.5 rounded uppercase">MamyPoko / Little Angels</span>
+                            <h4 class="font-bold text-gray-900 text-base mt-1">MamyPoko Pants & Little Angels</h4>
+                            <p class="text-xs text-gray-500 mt-1">S, M, L, XL, XXL all sizes in fresh wholesale cartons.</p>
+                        </div>
+                        <div class="p-4 border-t bg-gray-50 flex items-center justify-between">
+                            <div><span class="text-xs text-gray-500 block">Pricing</span><span class="font-black text-blue-900 text-sm">Bulk Rate</span></div>
+                            <a href="https://wa.me/919926075875?text=Hi%20Shaikh%20Marketing,%20I%20want%20to%20order%20Baby%20Diapers" target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-2 rounded-lg font-bold flex items-center gap-1">
+                                <i class="fab fa-whatsapp"></i> Order
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="product-card bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col justify-between" data-brand="emami joy vicco" data-category="cosmetics">
+                        <div class="p-4">
+                            <div class="h-44 bg-gray-100 rounded-lg mb-3 flex items-center justify-center text-gray-400 overflow-hidden">
+                                <img src="images/product4.jpg" onerror="this.onerror=null; this.src='https://placehold.co/300x200?text=Emami+Joy+Vicco';" alt="Cosmetics Range" class="w-full h-full object-cover">
+                           
+
